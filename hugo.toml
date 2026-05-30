@@ -22,8 +22,3 @@ pagination.pagerSize = 5
   [params.logo]
     logoText = 'alex@crome:~$'
     logoHomeLink = '/'
-
-[[menu.main]]
-  identifier = 'about'
-  name = 'About'
-  url = '/about'
