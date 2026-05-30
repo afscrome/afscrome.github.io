@@ -1,0 +1,26 @@
+baseURL = 'https://alexcrome.co.uk/'
+locale = 'en-us'
+title = 'Alex Crome'
+theme = 'terminal'
+pagination.pagerSize = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  contentTypeName = 'posts'
+  fullWidthTheme = false
+  centerTheme = true
+  subtitle = 'Software Engineer'
+  menuMore = 'Show more'
+  readMore = 'Read more'
+  readOtherPosts = 'Read other posts'
+
+  [params.logo]
+    logoText = 'alex@crome:~$'
+    logoHomeLink = '/'
+
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/about'
