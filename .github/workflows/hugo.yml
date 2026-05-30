@@ -28,8 +28,11 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
         with:
-          submodules: recursive
+          go-version-file: go.mod
 
       - name: Setup Pages
         id: pages
