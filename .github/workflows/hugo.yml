@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  🔨 build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.162.1
@@ -50,7 +50,7 @@ jobs:
         with:
           path: ./public
 
-  deploy:
+  🚀 deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
